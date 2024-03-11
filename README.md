@@ -21,3 +21,7 @@ This project is a simple music player application developed in html,css and JS. 
    
    Unsplash - For background images of the Webpage.
 
+## Contact
+  phone:9042590636
+  
+  email:har6ihar9an@gmail.com
