@@ -12,8 +12,12 @@ This project is a simple music player application developed in html,css and JS. 
 
 ## Tech Stack
    HTML - Used for structuring the Webpage
+   
    CSS - For styling the Webpage and have a good UserInterface.
+   
    JAVASCRIPT - For adding Interactivity and Dynamic Behaviour to the Webpage.
+   
    External Libraries used are Font Awesome CDN for icons used in the webpage.
+   
    Unsplash - For background images of the Webpage.
 
