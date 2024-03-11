@@ -1,0 +1,120 @@
+/* CSS for container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* CSS for form container */
+.form-container {
+    margin-right: 20px;
+}
+
+/* CSS for playlist container */
+.playlist-container {
+    margin-left: 20px;
+}
+
+/* CSS for playlist */
+.playlist {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.playlist h1 {
+    text-align: center;
+}
+
+.playlist-items {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.playlist-item:last-child {
+    border-bottom: none;
+}
+
+.playlist-item .song-name {
+    margin-right: 10px;
+}
+
+.playlist-item .delete-btn {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+/* CSS for form */
+#addSongForm {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#addSongForm label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 16px;
+}
+
+#addSongForm input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#addSongForm input[type="text"]:focus {
+    outline: none;
+    border-color: #1db954;
+}
+
+#addSongForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addSongForm button:hover {
+    background-color: #169c3f;
+}

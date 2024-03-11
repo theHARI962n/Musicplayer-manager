@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="addSongForm">
+                <label for="songName">Song Name:</label>
+                <input type="text" id="songName" name="songName" required>
+                <label for="songPath">Song Path:</label>
+                <input type="text" id="songPath" name="songPath" required>
+                <button type="submit">Add Song</button>
+            </form>
+        </div>
+        <div class="playlist-container">
+            <div class="playlist">
+                <h1>My Music Playlist</h1>
+                <ul id="playlistItems" class="playlist-items">
+                    <!-- Playlist items will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
