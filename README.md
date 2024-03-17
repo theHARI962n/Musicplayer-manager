@@ -1,15 +1,17 @@
 # Musicplayer-manager
 
 ## Introduction
-This project is a simple music player application developed in html,css and JS. It allows users to play, pause, stop, skip, and shuffle music tracks. The application supports various audio file formats such as MP3, WAV, and FLAC. 
+This project is a simple music player application developed in html,css and JS. It allows users to play, pause, stop, skip,shuffle and search music tracks. The application supports various audio file formats such as MP3, WAV, and FLAC. 
 
 ## Features
 - Play/Pause: Allows users to play or pause the currently selected music track.
 - Stop: Stops the playback of the current music track.
 - View Playlist
 - Playback speed
+- Search functionality
 - Playlist Management: Users can create, edit, and delete playlists. They can also add or remove music tracks from playlists.
 
+ used searching algorithm of DSA for the Search Functionality.
 ## Tech Stack
    HTML - Used for structuring the Webpage
    
